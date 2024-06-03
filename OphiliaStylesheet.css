@@ -1,0 +1,51 @@
+/*
+Student Name: Ophilia Fradarick
+Student ID: 300386351
+*/
+
+*{
+    border: solid;
+}
+header{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.maindiv1{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.column1{
+    display: flex;
+    background-color: #7e7658;
+    width:30em;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+div.column1 li{
+    color: #f6f2e4;
+    list-style-type:none;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title{
+    font-weight: bolder;
+    letter-spacing: 14px;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    width:max-content;
+    font-size: 60px;
+}
+
+div.column2{
+    margin-left: 1px;
+    box-sizing: border-box;
+    display: flex;
+    padding-bottom: 50px;
+}
